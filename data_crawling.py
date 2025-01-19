@@ -4,20 +4,16 @@ import pandas as pd
 from datetime import datetime
 from tqdm import tqdm  # tqdm 임포트
 
-# 설정
 DATA_DIR = r'C:\Users\inho0\OneDrive\문서\GitHub\Tobigs_PUBG\PUBG_data'
 OUTPUT_DIR = 'output'
 
-# 출력 디렉토리 생성
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 def load_json(file_path):
-    """JSON 파일을 로드하여 파이썬 객체로 반환."""
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             return json.load(f)
     except UnicodeDecodeError:
-        # utf-8 디코딩 실패 시 다른 인코딩으로 다시 시도
         try:
             with open(file_path, 'r', encoding='latin1') as f:
                 print(f"경고: {file_path} 파일이 utf-8이 아닌 다른 인코딩으로 처리되었습니다.")
