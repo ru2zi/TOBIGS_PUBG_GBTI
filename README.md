@@ -5,7 +5,7 @@
 
 ## 프로젝트 구조 (Architecture)
 
-프로젝트의 디렉토리 구조는 다음과 같습니다.
+프로젝트의 디렉토리 구조는 다음과 같음. 
 
 ```plaintext
 project-root/
