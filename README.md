@@ -1,6 +1,7 @@
 # TOBIGS_GBTI
 
-[포스터최최최종.pdf](https://github.com/user-attachments/files/18658059/default.pdf)
+
+![PUBG](https://github.com/user-attachments/assets/a5958898-fc90-488c-b840-fd079fa239c6)
 
 
 ## 프로젝트 구조 (Architecture)
